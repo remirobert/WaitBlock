@@ -18,5 +18,6 @@ Installation
 ============
 
 ```
+use_frameworks!
 pod 'WaitBlock'
 ```
