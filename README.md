@@ -11,3 +11,8 @@ Wait🕟Block.executeBlock("test", limitTimer: 3) { () -> () in
    // Do your fucking stuff here !!!
 }
 ```
+
+Installation
+============
+
+   pod 'WaitBlock'
