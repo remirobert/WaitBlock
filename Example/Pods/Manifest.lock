@@ -1,16 +1,16 @@
 PODS:
   - Nest (0.1.0)
-  - WaitBlock (0.2)
+  - WaitBlock (0.3)
   - "\U0001F512 (0.1.1)":
     - Nest (~> 0.1.0)
 
 DEPENDENCIES:
-  - WaitBlock (~> 0.2)
+  - WaitBlock (~> 0.3)
   - "\U0001F512"
 
 SPEC CHECKSUMS:
   Nest: 004f02b96c6fef406563f6e64d16f958ea90f7ae
-  WaitBlock: e3a8faf12d034607cec43da1a53bad63ff94ba06
+  WaitBlock: 05197cef150b5f63c353b299d15ddce3ff10d283
   "\U0001F512": 7ede1658c035414ba19738f0e8376ae1aa900a9b
 
 COCOAPODS: 0.37.2
