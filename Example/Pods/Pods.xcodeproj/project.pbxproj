@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		205A72908BEAFCBE59012FEE /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D14BF89E90D3C6C9A6621 /* Pods-dummy.m */; };
+		25BDF3782D303ED0E0D47C22 /* Pods-SwiftyTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7B52728F0F831558256AA7 /* Pods-SwiftyTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41D7101D6F0BD741728ED3CA /* WaitBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718CF040CD085B325C2770DD /* WaitBlock.swift */; };
+		4BFA12B20C2CB95D9AAB535D /* Pods-WaitBlock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBFC00AFEF173119F5E7840 /* Pods-WaitBlock-dummy.m */; };
+		4C5EB9B349C673B4C01832BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFEB3A8CEBD1A86456BB999 /* Foundation.framework */; };
+		50F489261F887DBC7B2D103B /* Pods-WaitBlock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54A09B4ECEDDC36986265EDA /* Pods-WaitBlock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65169994F7CA835124833BD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFEB3A8CEBD1A86456BB999 /* Foundation.framework */; };
+		687227B88B7552BBAF9F4BF3 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEDE51285A6A09EEBE776B9D /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AF006F76099529DC635A0C1 /* Pods-SwiftyTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8DECB5ABE140DB50DC4BD4 /* Pods-SwiftyTimer-dummy.m */; };
+		BA98E4CA78B9D3D701B380C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFEB3A8CEBD1A86456BB999 /* Foundation.framework */; };
+		E3F91CC3AE068B8AE7BB6EDF /* SwiftyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B1EDD07CF0DC78F73C3B30 /* SwiftyTimer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B383FB3C7253DBAB104A57D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1987D21427271C8F3FCD3D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 954A6A5BCE9CE1E47A5636AA;
+			remoteInfo = "Pods-SwiftyTimer";
+		};
+		D0B2AC0FD95B70FB9FD4B2E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1987D21427271C8F3FCD3D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86249906510F4691CD8A2416;
+			remoteInfo = "Pods-WaitBlock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BAD060B74C79554B770794 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0301131E25C5E56290D99A08 /* Pods-SwiftyTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyTimer.xcconfig"; sourceTree = "<group>"; };
+		13F90EC6CBF379C0CF462529 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C561E5434D4B27B2ACED144 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2CFEB3A8CEBD1A86456BB999 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2F7883182F0ECDAABFEEF82B /* Pods-SwiftyTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftyTimer.modulemap"; sourceTree = "<group>"; };
+		33CF6E8EACB6E75CD88DFCCD /* Pods-SwiftyTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyTimer-prefix.pch"; sourceTree = "<group>"; };
+		36F10DC5B8600749D9BA9E02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36FA4F8F5F341EAE2A0778FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377C2480DC107E6FFCB0D3B1 /* Pods-WaitBlock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WaitBlock-prefix.pch"; sourceTree = "<group>"; };
+		4C77C7DDBD475BDA44742F3C /* Pods-WaitBlock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaitBlock.xcconfig"; sourceTree = "<group>"; };
+		54A09B4ECEDDC36986265EDA /* Pods-WaitBlock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WaitBlock-umbrella.h"; sourceTree = "<group>"; };
+		60B1EDD07CF0DC78F73C3B30 /* SwiftyTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyTimer.swift; path = Src/SwiftyTimer.swift; sourceTree = "<group>"; };
+		68A9EBE9207FDEAE8C53EFAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		718CF040CD085B325C2770DD /* WaitBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WaitBlock.swift; path = WaitBlock/WaitBlock.swift; sourceTree = "<group>"; };
+		7A37B34D5B77E1B98BD508F7 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		8AA0BAC93282306F70BDBB4F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		8F8DECB5ABE140DB50DC4BD4 /* Pods-SwiftyTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyTimer-dummy.m"; sourceTree = "<group>"; };
+		907F7714B434F8415490F274 /* Pods-WaitBlock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WaitBlock.modulemap"; sourceTree = "<group>"; };
+		9249F1D3622943ECA4A25E4C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		97E75385DB7C6A43D4D804CE /* SwiftyTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5CA0A3ED54083CFC5DD5610 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A837449F79D2CA31E1A63EF2 /* WaitBlock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaitBlock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEDE51285A6A09EEBE776B9D /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		B2E2F1D63207FAEBB90957BB /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		B61D14BF89E90D3C6C9A6621 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		C32FB1AA3F796861607839DA /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		C4A75B051899FE7C96408CC5 /* Pods-SwiftyTimer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyTimer-Private.xcconfig"; sourceTree = "<group>"; };
+		CA4C0BF2F987E7421E270708 /* Pods-WaitBlock-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaitBlock-Private.xcconfig"; sourceTree = "<group>"; };
+		CF56E5C8DA4F338082EA824C /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		DF7B52728F0F831558256AA7 /* Pods-SwiftyTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyTimer-umbrella.h"; sourceTree = "<group>"; };
+		EEBFC00AFEF173119F5E7840 /* Pods-WaitBlock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WaitBlock-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C50E7AD4FCC93B92038AA12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA98E4CA78B9D3D701B380C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61D5D4B90F6279ED7F1BCB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5EB9B349C673B4C01832BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB53FB75FC06CC2642546716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65169994F7CA835124833BD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1374579234AFE4375B3F4E06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1D2B489DFAC0FFACF5A0226 /* SwiftyTimer */,
+				7313B0FE25F443F4B0C792A1 /* WaitBlock */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		48A58E28D56E964E74356EAA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68A9EBE9207FDEAE8C53EFAE /* Info.plist */,
+				2F7883182F0ECDAABFEEF82B /* Pods-SwiftyTimer.modulemap */,
+				0301131E25C5E56290D99A08 /* Pods-SwiftyTimer.xcconfig */,
+				C4A75B051899FE7C96408CC5 /* Pods-SwiftyTimer-Private.xcconfig */,
+				8F8DECB5ABE140DB50DC4BD4 /* Pods-SwiftyTimer-dummy.m */,
+				33CF6E8EACB6E75CD88DFCCD /* Pods-SwiftyTimer-prefix.pch */,
+				DF7B52728F0F831558256AA7 /* Pods-SwiftyTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SwiftyTimer";
+			sourceTree = "<group>";
+		};
+		65DE175C1188F820320CEA10 = {
+			isa = PBXGroup;
+			children = (
+				1C561E5434D4B27B2ACED144 /* Podfile */,
+				D9361285321497427139808C /* Frameworks */,
+				1374579234AFE4375B3F4E06 /* Pods */,
+				EA87DF90CBBA2537F7982FAC /* Products */,
+				B6502D2E1125E46D7B975F51 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		6A8443E38795E0AABF3CEE84 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36F10DC5B8600749D9BA9E02 /* Info.plist */,
+				907F7714B434F8415490F274 /* Pods-WaitBlock.modulemap */,
+				4C77C7DDBD475BDA44742F3C /* Pods-WaitBlock.xcconfig */,
+				CA4C0BF2F987E7421E270708 /* Pods-WaitBlock-Private.xcconfig */,
+				EEBFC00AFEF173119F5E7840 /* Pods-WaitBlock-dummy.m */,
+				377C2480DC107E6FFCB0D3B1 /* Pods-WaitBlock-prefix.pch */,
+				54A09B4ECEDDC36986265EDA /* Pods-WaitBlock-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-WaitBlock";
+			sourceTree = "<group>";
+		};
+		6ABD5DEBB11A538F210E471E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2CFEB3A8CEBD1A86456BB999 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7313B0FE25F443F4B0C792A1 /* WaitBlock */ = {
+			isa = PBXGroup;
+			children = (
+				718CF040CD085B325C2770DD /* WaitBlock.swift */,
+				6A8443E38795E0AABF3CEE84 /* Support Files */,
+			);
+			path = WaitBlock;
+			sourceTree = "<group>";
+		};
+		9FE4827CBA2B29F549216E26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36FA4F8F5F341EAE2A0778FF /* Info.plist */,
+				C32FB1AA3F796861607839DA /* Pods.modulemap */,
+				A5CA0A3ED54083CFC5DD5610 /* Pods-acknowledgements.markdown */,
+				13F90EC6CBF379C0CF462529 /* Pods-acknowledgements.plist */,
+				B61D14BF89E90D3C6C9A6621 /* Pods-dummy.m */,
+				B2E2F1D63207FAEBB90957BB /* Pods-environment.h */,
+				CF56E5C8DA4F338082EA824C /* Pods-frameworks.sh */,
+				7A37B34D5B77E1B98BD508F7 /* Pods-resources.sh */,
+				AEDE51285A6A09EEBE776B9D /* Pods-umbrella.h */,
+				8AA0BAC93282306F70BDBB4F /* Pods.debug.xcconfig */,
+				9249F1D3622943ECA4A25E4C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		B6502D2E1125E46D7B975F51 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FE4827CBA2B29F549216E26 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D1D2B489DFAC0FFACF5A0226 /* SwiftyTimer */ = {
+			isa = PBXGroup;
+			children = (
+				60B1EDD07CF0DC78F73C3B30 /* SwiftyTimer.swift */,
+				48A58E28D56E964E74356EAA /* Support Files */,
+			);
+			path = SwiftyTimer;
+			sourceTree = "<group>";
+		};
+		D9361285321497427139808C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ABD5DEBB11A538F210E471E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA87DF90CBBA2537F7982FAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00BAD060B74C79554B770794 /* Pods.framework */,
+				97E75385DB7C6A43D4D804CE /* SwiftyTimer.framework */,
+				A837449F79D2CA31E1A63EF2 /* WaitBlock.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DA6F46EBCE367059AC70DDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BDF3782D303ED0E0D47C22 /* Pods-SwiftyTimer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C71D40B292125E52EAD9EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687227B88B7552BBAF9F4BF3 /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCA76D2C44013D18D6D00C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F489261F887DBC7B2D103B /* Pods-WaitBlock-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		86249906510F4691CD8A2416 /* Pods-WaitBlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504ACCAE8FAFDEDFA7086361 /* Build configuration list for PBXNativeTarget "Pods-WaitBlock" */;
+			buildPhases = (
+				A54686B0404B5346C048DA96 /* Sources */,
+				B61D5D4B90F6279ED7F1BCB5 /* Frameworks */,
+				CCCA76D2C44013D18D6D00C2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WaitBlock";
+			productName = "Pods-WaitBlock";
+			productReference = A837449F79D2CA31E1A63EF2 /* WaitBlock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		954A6A5BCE9CE1E47A5636AA /* Pods-SwiftyTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7027A6E299B526ABCBE9F461 /* Build configuration list for PBXNativeTarget "Pods-SwiftyTimer" */;
+			buildPhases = (
+				FD9EA575CC9DCE95AC0B72D3 /* Sources */,
+				CB53FB75FC06CC2642546716 /* Frameworks */,
+				1DA6F46EBCE367059AC70DDC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SwiftyTimer";
+			productName = "Pods-SwiftyTimer";
+			productReference = 97E75385DB7C6A43D4D804CE /* SwiftyTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B276EA92EB1C56AB6D6DB6AD /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F7420B40F56DEDCDA6494E /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				3F6F9C7C97D2B894577E3464 /* Sources */,
+				6C50E7AD4FCC93B92038AA12 /* Frameworks */,
+				C1C71D40B292125E52EAD9EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DA488849F8C16A7B085625D /* PBXTargetDependency */,
+				13D708A3F75161D8BD463BE7 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 00BAD060B74C79554B770794 /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1987D21427271C8F3FCD3D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = D69E837482F3985CEC4F9DD5 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65DE175C1188F820320CEA10;
+			productRefGroup = EA87DF90CBBA2537F7982FAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B276EA92EB1C56AB6D6DB6AD /* Pods */,
+				954A6A5BCE9CE1E47A5636AA /* Pods-SwiftyTimer */,
+				86249906510F4691CD8A2416 /* Pods-WaitBlock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F6F9C7C97D2B894577E3464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205A72908BEAFCBE59012FEE /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54686B0404B5346C048DA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BFA12B20C2CB95D9AAB535D /* Pods-WaitBlock-dummy.m in Sources */,
+				41D7101D6F0BD741728ED3CA /* WaitBlock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9EA575CC9DCE95AC0B72D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF006F76099529DC635A0C1 /* Pods-SwiftyTimer-dummy.m in Sources */,
+				E3F91CC3AE068B8AE7BB6EDF /* SwiftyTimer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13D708A3F75161D8BD463BE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WaitBlock";
+			target = 86249906510F4691CD8A2416 /* Pods-WaitBlock */;
+			targetProxy = D0B2AC0FD95B70FB9FD4B2E4 /* PBXContainerItemProxy */;
+		};
+		3DA488849F8C16A7B085625D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwiftyTimer";
+			target = 954A6A5BCE9CE1E47A5636AA /* Pods-SwiftyTimer */;
+			targetProxy = 2B383FB3C7253DBAB104A57D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08338E43AC39A0F5D713C486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4C0BF2F987E7421E270708 /* Pods-WaitBlock-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WaitBlock/Pods-WaitBlock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-WaitBlock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-WaitBlock/Pods-WaitBlock.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WaitBlock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39742B5BB847EC5801A8B2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4C0BF2F987E7421E270708 /* Pods-WaitBlock-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WaitBlock/Pods-WaitBlock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-WaitBlock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-WaitBlock/Pods-WaitBlock.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WaitBlock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		439C8955D15A274B96E9872C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A75B051899FE7C96408CC5 /* Pods-SwiftyTimer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SwiftyTimer/Pods-SwiftyTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyTimer/Pods-SwiftyTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C0E8A4055F290C51A3E2194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AA0BAC93282306F70BDBB4F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E74B05CBB6F19D322E054FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		768049AC961AB5EFD6D7DDF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9339BCE6D99EF13955754299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A75B051899FE7C96408CC5 /* Pods-SwiftyTimer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SwiftyTimer/Pods-SwiftyTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyTimer/Pods-SwiftyTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C60C3ACB999B201CED842682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9249F1D3622943ECA4A25E4C /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		504ACCAE8FAFDEDFA7086361 /* Build configuration list for PBXNativeTarget "Pods-WaitBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39742B5BB847EC5801A8B2B7 /* Debug */,
+				08338E43AC39A0F5D713C486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F7420B40F56DEDCDA6494E /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0E8A4055F290C51A3E2194 /* Debug */,
+				C60C3ACB999B201CED842682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7027A6E299B526ABCBE9F461 /* Build configuration list for PBXNativeTarget "Pods-SwiftyTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9339BCE6D99EF13955754299 /* Debug */,
+				439C8955D15A274B96E9872C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69E837482F3985CEC4F9DD5 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768049AC961AB5EFD6D7DDF4 /* Debug */,
+				4E74B05CBB6F19D322E054FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1987D21427271C8F3FCD3D7 /* Project object */;
+}

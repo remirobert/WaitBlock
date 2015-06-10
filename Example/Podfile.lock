@@ -1,0 +1,13 @@
+PODS:
+  - SwiftyTimer (1.1.0)
+  - WaitBlock (0.1)
+
+DEPENDENCIES:
+  - SwiftyTimer
+  - WaitBlock
+
+SPEC CHECKSUMS:
+  SwiftyTimer: 3b1bf42c8b1bb09dff7107b12d3b73cbf700bbce
+  WaitBlock: 8c32c0172a599c78a11d1e25cfd44ae519abaa61
+
+COCOAPODS: 0.37.2

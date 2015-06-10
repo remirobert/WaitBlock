@@ -1,0 +1,6 @@
+framework module WaitBlock {
+  umbrella header "Pods-WaitBlock-umbrella.h"
+
+  export *
+  module * { export * }
+}

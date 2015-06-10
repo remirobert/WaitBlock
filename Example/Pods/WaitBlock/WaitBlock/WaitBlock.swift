@@ -8,17 +8,17 @@
 
 import UIKit
 
-class Wait🕟Block {
+class WaitBlock {
     private var queue: dispatch_queue_t!
     private var executionBlocks: NSMutableDictionary!
     
-    private class var sharedInstance: Wait🕟Block {
+    private class var sharedInstance: WaitBlock {
         struct Static {
             static var onceToken: dispatch_once_t = 0
-            static var instance: Wait🕟Block? = nil
+            static var instance: WaitBlock? = nil
         }
         dispatch_once(&Static.onceToken) {
-            Static.instance = Wait🕟Block()
+            Static.instance = WaitBlock()
             Static.instance?.queue = dispatch_queue_create("com.remirobert.after", DISPATCH_QUEUE_SERIAL)
             Static.instance?.executionBlocks = NSMutableDictionary()
         }
