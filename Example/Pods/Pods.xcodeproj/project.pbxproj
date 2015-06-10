@@ -7,213 +7,195 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13E9C89289806B9A8857CB36 /* Pods-WaitBlock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F51303265A3972EFC05B8F /* Pods-WaitBlock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3CDDCD4698A5BBFA692BEA60 /* Pods-WaitBlock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 658280C9C5D6D57902C29AA8 /* Pods-WaitBlock-dummy.m */; };
-		77A95FA76BCB8DFB820ED3B0 /* WaitBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B1909D05A905346DEC6B59 /* WaitBlock.swift */; };
-		98E65A4AE4FCAB38DCA65060 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F94D0F075D28BDDEADEB9AF /* Foundation.framework */; };
-		9E763D9B3A0BEF187BB4BF30 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 017965E04A464A748E2BCC5C /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B198FF6D24D4ACDBBDAF8C44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F94D0F075D28BDDEADEB9AF /* Foundation.framework */; };
-		F68226596BB808C338853505 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 486D1E41FEB2E940465B4F6D /* Pods-dummy.m */; };
+		1CA725573F2384741F14603F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5829FEB4DD1FEBAC055758 /* Foundation.framework */; };
+		22C0052E0B2673227714FF43 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 042BE267B3B22674A3268913 /* Pods-dummy.m */; };
+		402858D753D7B2DA2C81D360 /* WaitBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F6F75E087DC98C0714AC6D /* WaitBlock.swift */; };
+		48C108D87286DBFD52DEFEE0 /* Pods-WaitBlock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5376BB8C94F826280C6D3A /* Pods-WaitBlock-dummy.m */; };
+		8D7C6C2F1B04ECFEAABE0915 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5829FEB4DD1FEBAC055758 /* Foundation.framework */; };
+		C3DAD834C90EBD4AAF4F7EB2 /* Pods-WaitBlock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A596E52CC6089ED25EA30DEA /* Pods-WaitBlock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDD753EEF6E3D43E4B9A22CB /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CEF586C3540FA9C6F52443 /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BF7109564EF00D9D792069EA /* PBXContainerItemProxy */ = {
+		1EF45015259CD3A531443809 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CAB4BCF32D3D94995CC69E3A /* Project object */;
+			containerPortal = 89C625314219072DD0F6286A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 76A1395BC85F5DCC66E2455E;
+			remoteGlobalIDString = 1999FB54966AB96CF890F308;
 			remoteInfo = "Pods-WaitBlock";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		017965E04A464A748E2BCC5C /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
-		0DE81F1A46AFCCAA92079041 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		0E1F60A1147939408B89F744 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0F94D0F075D28BDDEADEB9AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		17F2848F691146DAE3A1A7F0 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		1B766A66CEBB42A82A1B14E0 /* Pods-WaitBlock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WaitBlock.modulemap"; sourceTree = "<group>"; };
-		1FE26E97AC3F532C4ABA0081 /* Pods-WaitBlock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaitBlock.xcconfig"; sourceTree = "<group>"; };
-		2C85B48DD9E9F3ABCE7D737A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46F51303265A3972EFC05B8F /* Pods-WaitBlock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WaitBlock-umbrella.h"; sourceTree = "<group>"; };
-		486D1E41FEB2E940465B4F6D /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		4EC595EFD8515186C88E95EA /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
-		515F9E0461E6B7A117808F39 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C768062C9C9FDF659991B8A /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		658280C9C5D6D57902C29AA8 /* Pods-WaitBlock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WaitBlock-dummy.m"; sourceTree = "<group>"; };
-		78A8AD1B68D2B78FC778F92B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		7C89254482A75FFB6A7FADBE /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
-		88696B8A3202B7F9A669C07E /* Pods-WaitBlock-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaitBlock-Private.xcconfig"; sourceTree = "<group>"; };
-		8CAE505F17DA930AE66BF94F /* Pods-WaitBlock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WaitBlock-prefix.pch"; sourceTree = "<group>"; };
-		9C2F47D9BE50BA7A20FABB07 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B8B1909D05A905346DEC6B59 /* WaitBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WaitBlock.swift; path = WaitBlock/WaitBlock.swift; sourceTree = "<group>"; };
-		D31E4B70C3EFFC6BF64F67CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5B4AACBD06A504FB2211EE0 /* WaitBlock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaitBlock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9498AD5CBA1FB3F7B0EC4E5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		042BE267B3B22674A3268913 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		0491D2E9CB3162AAA0A74799 /* Pods-WaitBlock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WaitBlock-prefix.pch"; sourceTree = "<group>"; };
+		0CD204DB67FB2D25C08E804D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13AC8D7E4AB0E9CB2CA6994A /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		166E97BAE19089D8AEFC874D /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F5829FEB4DD1FEBAC055758 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C5376BB8C94F826280C6D3A /* Pods-WaitBlock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WaitBlock-dummy.m"; sourceTree = "<group>"; };
+		425076929B561EF301EAF4FE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		57CEF586C3540FA9C6F52443 /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		61B5C316EB269673969B4127 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		77AB301C3EB8086C8FD4D55C /* Pods-WaitBlock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaitBlock.xcconfig"; sourceTree = "<group>"; };
+		8181B9B3DCF0D3DA7F55F01E /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		96F6F75E087DC98C0714AC6D /* WaitBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WaitBlock.swift; path = WaitBlock/WaitBlock.swift; sourceTree = "<group>"; };
+		9F6CB0B04F31888FADB21ECE /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A327F7321C8A36AFC189B37C /* Pods-WaitBlock-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaitBlock-Private.xcconfig"; sourceTree = "<group>"; };
+		A5474157F27B55E8385D8903 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		A596E52CC6089ED25EA30DEA /* Pods-WaitBlock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WaitBlock-umbrella.h"; sourceTree = "<group>"; };
+		A6BA34C7538192E1BFE4B981 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		A8C939028E5545C8E3BEA1F1 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		C08B6EA1333DC232A298D0DC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		D70549610ABB4C4EA58DD620 /* Pods-WaitBlock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WaitBlock.modulemap"; sourceTree = "<group>"; };
+		E5AB1B9F4F1487A19ADFDA3C /* WaitBlock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaitBlock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8BFF2887D94893114D2573 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03F000C4A376A4AAF80893D2 /* Frameworks */ = {
+		10C9895BF23597E752139482 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98E65A4AE4FCAB38DCA65060 /* Foundation.framework in Frameworks */,
+				8D7C6C2F1B04ECFEAABE0915 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		213D4BE512C0E92272FC5852 /* Frameworks */ = {
+		A888C0BCD773AF39842E2876 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B198FF6D24D4ACDBBDAF8C44 /* Foundation.framework in Frameworks */,
+				1CA725573F2384741F14603F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		193CC6E1DFCD1F1F7D284AEC /* Products */ = {
+		0A3D2CB045418487125C5A64 /* WaitBlock */ = {
 			isa = PBXGroup;
 			children = (
-				515F9E0461E6B7A117808F39 /* Pods.framework */,
-				F5B4AACBD06A504FB2211EE0 /* WaitBlock.framework */,
+				96F6F75E087DC98C0714AC6D /* WaitBlock.swift */,
+				7097F666EEA523A7D7479990 /* Support Files */,
 			);
-			name = Products;
+			path = WaitBlock;
 			sourceTree = "<group>";
 		};
-		2906AAC3AFDB54111605F062 /* Frameworks */ = {
+		1186F388F572F5EE60062597 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B36BCF9BADF74D536D220C97 /* iOS */,
+				0A3D2CB045418487125C5A64 /* WaitBlock */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		4982090583987B7C2D0DB9F7 /* Targets Support Files */ = {
+		7097F666EEA523A7D7479990 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D77F729EDFCE83072B9D63DA /* Pods */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		931F5EE4746E331785699296 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D31E4B70C3EFFC6BF64F67CC /* Info.plist */,
-				1B766A66CEBB42A82A1B14E0 /* Pods-WaitBlock.modulemap */,
-				1FE26E97AC3F532C4ABA0081 /* Pods-WaitBlock.xcconfig */,
-				88696B8A3202B7F9A669C07E /* Pods-WaitBlock-Private.xcconfig */,
-				658280C9C5D6D57902C29AA8 /* Pods-WaitBlock-dummy.m */,
-				8CAE505F17DA930AE66BF94F /* Pods-WaitBlock-prefix.pch */,
-				46F51303265A3972EFC05B8F /* Pods-WaitBlock-umbrella.h */,
+				0CD204DB67FB2D25C08E804D /* Info.plist */,
+				D70549610ABB4C4EA58DD620 /* Pods-WaitBlock.modulemap */,
+				77AB301C3EB8086C8FD4D55C /* Pods-WaitBlock.xcconfig */,
+				A327F7321C8A36AFC189B37C /* Pods-WaitBlock-Private.xcconfig */,
+				3C5376BB8C94F826280C6D3A /* Pods-WaitBlock-dummy.m */,
+				0491D2E9CB3162AAA0A74799 /* Pods-WaitBlock-prefix.pch */,
+				A596E52CC6089ED25EA30DEA /* Pods-WaitBlock-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-WaitBlock";
 			sourceTree = "<group>";
 		};
-		A31B220647FB27F3758F6601 /* Pods */ = {
+		A4944BAA8527357FAAA0C379 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A48F9822002D1044B7B84163 /* WaitBlock */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		A48F9822002D1044B7B84163 /* WaitBlock */ = {
-			isa = PBXGroup;
-			children = (
-				B8B1909D05A905346DEC6B59 /* WaitBlock.swift */,
-				931F5EE4746E331785699296 /* Support Files */,
-			);
-			path = WaitBlock;
-			sourceTree = "<group>";
-		};
-		B36BCF9BADF74D536D220C97 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				0F94D0F075D28BDDEADEB9AF /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		B8C4C81EA3E28C495B3DA663 = {
-			isa = PBXGroup;
-			children = (
-				0E1F60A1147939408B89F744 /* Podfile */,
-				2906AAC3AFDB54111605F062 /* Frameworks */,
-				A31B220647FB27F3758F6601 /* Pods */,
-				193CC6E1DFCD1F1F7D284AEC /* Products */,
-				4982090583987B7C2D0DB9F7 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		D77F729EDFCE83072B9D63DA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2C85B48DD9E9F3ABCE7D737A /* Info.plist */,
-				4EC595EFD8515186C88E95EA /* Pods.modulemap */,
-				9C2F47D9BE50BA7A20FABB07 /* Pods-acknowledgements.markdown */,
-				0DE81F1A46AFCCAA92079041 /* Pods-acknowledgements.plist */,
-				486D1E41FEB2E940465B4F6D /* Pods-dummy.m */,
-				7C89254482A75FFB6A7FADBE /* Pods-environment.h */,
-				17F2848F691146DAE3A1A7F0 /* Pods-frameworks.sh */,
-				5C768062C9C9FDF659991B8A /* Pods-resources.sh */,
-				017965E04A464A748E2BCC5C /* Pods-umbrella.h */,
-				78A8AD1B68D2B78FC778F92B /* Pods.debug.xcconfig */,
-				F9498AD5CBA1FB3F7B0EC4E5 /* Pods.release.xcconfig */,
+				EE8BFF2887D94893114D2573 /* Info.plist */,
+				8181B9B3DCF0D3DA7F55F01E /* Pods.modulemap */,
+				166E97BAE19089D8AEFC874D /* Pods-acknowledgements.markdown */,
+				A6BA34C7538192E1BFE4B981 /* Pods-acknowledgements.plist */,
+				042BE267B3B22674A3268913 /* Pods-dummy.m */,
+				61B5C316EB269673969B4127 /* Pods-environment.h */,
+				A5474157F27B55E8385D8903 /* Pods-frameworks.sh */,
+				A8C939028E5545C8E3BEA1F1 /* Pods-resources.sh */,
+				57CEF586C3540FA9C6F52443 /* Pods-umbrella.h */,
+				C08B6EA1333DC232A298D0DC /* Pods.debug.xcconfig */,
+				425076929B561EF301EAF4FE /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
+		A4D0AA2F07B7350DDB0D4486 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2F5829FEB4DD1FEBAC055758 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C179F159EE1D6435E66CC6F6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4944BAA8527357FAAA0C379 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C5AB0368A1E53685B57C6FDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4D0AA2F07B7350DDB0D4486 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8BDE838CE6D8F157FC8A4D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13AC8D7E4AB0E9CB2CA6994A /* Pods.framework */,
+				E5AB1B9F4F1487A19ADFDA3C /* WaitBlock.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E020ADBD0BEA3C38F6832EA4 = {
+			isa = PBXGroup;
+			children = (
+				9F6CB0B04F31888FADB21ECE /* Podfile */,
+				C5AB0368A1E53685B57C6FDE /* Frameworks */,
+				1186F388F572F5EE60062597 /* Pods */,
+				D8BDE838CE6D8F157FC8A4D9 /* Products */,
+				C179F159EE1D6435E66CC6F6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		31BB8506A5688640CFD19403 /* Headers */ = {
+		22076D4764AF60848A0652CB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13E9C89289806B9A8857CB36 /* Pods-WaitBlock-umbrella.h in Headers */,
+				C3DAD834C90EBD4AAF4F7EB2 /* Pods-WaitBlock-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F28DC3CB95C5586BE8820B8 /* Headers */ = {
+		6DB2BCDD00EC5A96127FCC4D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E763D9B3A0BEF187BB4BF30 /* Pods-umbrella.h in Headers */,
+				CDD753EEF6E3D43E4B9A22CB /* Pods-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		615E67EA71C7B115056F4C80 /* Pods */ = {
+		1999FB54966AB96CF890F308 /* Pods-WaitBlock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1C198BABFB1A10C8836FF4D /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 0E4E052764D0EFED5C893685 /* Build configuration list for PBXNativeTarget "Pods-WaitBlock" */;
 			buildPhases = (
-				1FC527659C57FD2F5F676506 /* Sources */,
-				03F000C4A376A4AAF80893D2 /* Frameworks */,
-				8F28DC3CB95C5586BE8820B8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E1B313443A2376E116A4F6A4 /* PBXTargetDependency */,
-			);
-			name = Pods;
-			productName = Pods;
-			productReference = 515F9E0461E6B7A117808F39 /* Pods.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		76A1395BC85F5DCC66E2455E /* Pods-WaitBlock */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4B77206AD2F2CBBE80DC7446 /* Build configuration list for PBXNativeTarget "Pods-WaitBlock" */;
-			buildPhases = (
-				ABCA33E176F2128092664F28 /* Sources */,
-				213D4BE512C0E92272FC5852 /* Frameworks */,
-				31BB8506A5688640CFD19403 /* Headers */,
+				701E7115F0B9ECB210BE92EF /* Sources */,
+				A888C0BCD773AF39842E2876 /* Frameworks */,
+				22076D4764AF60848A0652CB /* Headers */,
 			);
 			buildRules = (
 			);
@@ -221,66 +203,84 @@
 			);
 			name = "Pods-WaitBlock";
 			productName = "Pods-WaitBlock";
-			productReference = F5B4AACBD06A504FB2211EE0 /* WaitBlock.framework */;
+			productReference = E5AB1B9F4F1487A19ADFDA3C /* WaitBlock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABB2BADE48601A52831752CF /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF7AE89790666254728F6EFF /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				AC7C07FAC9A23699F420C719 /* Sources */,
+				10C9895BF23597E752139482 /* Frameworks */,
+				6DB2BCDD00EC5A96127FCC4D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED0EAB87353BBCC125FCEF2D /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 13AC8D7E4AB0E9CB2CA6994A /* Pods.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CAB4BCF32D3D94995CC69E3A /* Project object */ = {
+		89C625314219072DD0F6286A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = E4D3D042696F44F63442AE2A /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = A8DE8E203B66A987F1423A61 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = B8C4C81EA3E28C495B3DA663;
-			productRefGroup = 193CC6E1DFCD1F1F7D284AEC /* Products */;
+			mainGroup = E020ADBD0BEA3C38F6832EA4;
+			productRefGroup = D8BDE838CE6D8F157FC8A4D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				615E67EA71C7B115056F4C80 /* Pods */,
-				76A1395BC85F5DCC66E2455E /* Pods-WaitBlock */,
+				ABB2BADE48601A52831752CF /* Pods */,
+				1999FB54966AB96CF890F308 /* Pods-WaitBlock */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1FC527659C57FD2F5F676506 /* Sources */ = {
+		701E7115F0B9ECB210BE92EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F68226596BB808C338853505 /* Pods-dummy.m in Sources */,
+				48C108D87286DBFD52DEFEE0 /* Pods-WaitBlock-dummy.m in Sources */,
+				402858D753D7B2DA2C81D360 /* WaitBlock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABCA33E176F2128092664F28 /* Sources */ = {
+		AC7C07FAC9A23699F420C719 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CDDCD4698A5BBFA692BEA60 /* Pods-WaitBlock-dummy.m in Sources */,
-				77A95FA76BCB8DFB820ED3B0 /* WaitBlock.swift in Sources */,
+				22C0052E0B2673227714FF43 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E1B313443A2376E116A4F6A4 /* PBXTargetDependency */ = {
+		ED0EAB87353BBCC125FCEF2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-WaitBlock";
-			target = 76A1395BC85F5DCC66E2455E /* Pods-WaitBlock */;
-			targetProxy = BF7109564EF00D9D792069EA /* PBXContainerItemProxy */;
+			target = 1999FB54966AB96CF890F308 /* Pods-WaitBlock */;
+			targetProxy = 1EF45015259CD3A531443809 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3CEA87ABD4A032C59AF80288 /* Debug */ = {
+		0145C5AE650CA4DD383268C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -319,9 +319,64 @@
 			};
 			name = Debug;
 		};
-		7BAA81100A9CB8E61EFC07AB /* Debug */ = {
+		11B0F510AA6EB1DACE22A00D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78A8AD1B68D2B78FC778F92B /* Pods.debug.xcconfig */;
+			baseConfigurationReference = A327F7321C8A36AFC189B37C /* Pods-WaitBlock-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WaitBlock/Pods-WaitBlock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-WaitBlock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-WaitBlock/Pods-WaitBlock.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WaitBlock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		12A219D3F73AD9F77D1EE887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A327F7321C8A36AFC189B37C /* Pods-WaitBlock-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WaitBlock/Pods-WaitBlock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-WaitBlock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-WaitBlock/Pods-WaitBlock.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WaitBlock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C07EBE5D6733A4177CDFA74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C08B6EA1333DC232A298D0DC /* Pods.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -349,37 +404,9 @@
 			};
 			name = Debug;
 		};
-		9A4CFAB0F233F4AFB4F839C6 /* Debug */ = {
+		DD624458E39620BDBA00458E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88696B8A3202B7F9A669C07E /* Pods-WaitBlock-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-WaitBlock/Pods-WaitBlock-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-WaitBlock/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-WaitBlock/Pods-WaitBlock.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = WaitBlock;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C1DD5DDBF6F23542195FF2ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9498AD5CBA1FB3F7B0EC4E5 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 425076929B561EF301EAF4FE /* Pods.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -406,7 +433,7 @@
 			};
 			name = Release;
 		};
-		C47BF2FF1EE15E5BF960A9B1 /* Release */ = {
+		E2074B73761B17A024565D76 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -440,64 +467,37 @@
 			};
 			name = Release;
 		};
-		C9C77C86D86D67206CBAA8BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88696B8A3202B7F9A669C07E /* Pods-WaitBlock-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-WaitBlock/Pods-WaitBlock-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-WaitBlock/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-WaitBlock/Pods-WaitBlock.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = WaitBlock;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B77206AD2F2CBBE80DC7446 /* Build configuration list for PBXNativeTarget "Pods-WaitBlock" */ = {
+		0E4E052764D0EFED5C893685 /* Build configuration list for PBXNativeTarget "Pods-WaitBlock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A4CFAB0F233F4AFB4F839C6 /* Debug */,
-				C9C77C86D86D67206CBAA8BD /* Release */,
+				12A219D3F73AD9F77D1EE887 /* Debug */,
+				11B0F510AA6EB1DACE22A00D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4D3D042696F44F63442AE2A /* Build configuration list for PBXProject "Pods" */ = {
+		A8DE8E203B66A987F1423A61 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3CEA87ABD4A032C59AF80288 /* Debug */,
-				C47BF2FF1EE15E5BF960A9B1 /* Release */,
+				0145C5AE650CA4DD383268C8 /* Debug */,
+				E2074B73761B17A024565D76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1C198BABFB1A10C8836FF4D /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		BF7AE89790666254728F6EFF /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7BAA81100A9CB8E61EFC07AB /* Debug */,
-				C1DD5DDBF6F23542195FF2ED /* Release */,
+				C07EBE5D6733A4177CDFA74E /* Debug */,
+				DD624458E39620BDBA00458E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CAB4BCF32D3D94995CC69E3A /* Project object */;
+	rootObject = 89C625314219072DD0F6286A /* Project object */;
 }
