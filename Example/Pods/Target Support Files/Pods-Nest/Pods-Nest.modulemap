@@ -1,0 +1,6 @@
+framework module Nest {
+  umbrella header "Pods-Nest-umbrella.h"
+
+  export *
+  module * { export * }
+}

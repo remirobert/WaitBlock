@@ -1,0 +1,6 @@
+framework module Padlock {
+  umbrella header "Pods-🔒-umbrella.h"
+
+  export *
+  module * { export * }
+}

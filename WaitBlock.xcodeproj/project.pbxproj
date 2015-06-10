@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB89714E1B28C6CC0012819C /* WaitBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = BB89714D1B28C6CC0012819C /* WaitBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB8971541B28C6CC0012819C /* WaitBlock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8971481B28C6CC0012819C /* WaitBlock.framework */; };
+		BB89715B1B28C6CC0012819C /* WaitBlockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB89715A1B28C6CC0012819C /* WaitBlockTests.swift */; };
+		BB8971651B28C6D90012819C /* WaitBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8971641B28C6D90012819C /* WaitBlock.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB8971551B28C6CC0012819C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB89713F1B28C6CC0012819C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB8971471B28C6CC0012819C;
+			remoteInfo = WaitBlock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB8971481B28C6CC0012819C /* WaitBlock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaitBlock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB89714C1B28C6CC0012819C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB89714D1B28C6CC0012819C /* WaitBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaitBlock.h; sourceTree = "<group>"; };
+		BB8971531B28C6CC0012819C /* WaitBlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaitBlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8971591B28C6CC0012819C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB89715A1B28C6CC0012819C /* WaitBlockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitBlockTests.swift; sourceTree = "<group>"; };
+		BB8971641B28C6D90012819C /* WaitBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitBlock.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB8971441B28C6CC0012819C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8971501B28C6CC0012819C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8971541B28C6CC0012819C /* WaitBlock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB89713E1B28C6CC0012819C = {
+			isa = PBXGroup;
+			children = (
+				BB89714A1B28C6CC0012819C /* WaitBlock */,
+				BB8971571B28C6CC0012819C /* WaitBlockTests */,
+				BB8971491B28C6CC0012819C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB8971491B28C6CC0012819C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB8971481B28C6CC0012819C /* WaitBlock.framework */,
+				BB8971531B28C6CC0012819C /* WaitBlockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB89714A1B28C6CC0012819C /* WaitBlock */ = {
+			isa = PBXGroup;
+			children = (
+				BB8971641B28C6D90012819C /* WaitBlock.swift */,
+				BB89714D1B28C6CC0012819C /* WaitBlock.h */,
+				BB89714B1B28C6CC0012819C /* Supporting Files */,
+			);
+			path = WaitBlock;
+			sourceTree = "<group>";
+		};
+		BB89714B1B28C6CC0012819C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB89714C1B28C6CC0012819C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB8971571B28C6CC0012819C /* WaitBlockTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB89715A1B28C6CC0012819C /* WaitBlockTests.swift */,
+				BB8971581B28C6CC0012819C /* Supporting Files */,
+			);
+			path = WaitBlockTests;
+			sourceTree = "<group>";
+		};
+		BB8971581B28C6CC0012819C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB8971591B28C6CC0012819C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BB8971451B28C6CC0012819C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB89714E1B28C6CC0012819C /* WaitBlock.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BB8971471B28C6CC0012819C /* WaitBlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB89715E1B28C6CC0012819C /* Build configuration list for PBXNativeTarget "WaitBlock" */;
+			buildPhases = (
+				BB8971431B28C6CC0012819C /* Sources */,
+				BB8971441B28C6CC0012819C /* Frameworks */,
+				BB8971451B28C6CC0012819C /* Headers */,
+				BB8971461B28C6CC0012819C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaitBlock;
+			productName = WaitBlock;
+			productReference = BB8971481B28C6CC0012819C /* WaitBlock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB8971521B28C6CC0012819C /* WaitBlockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8971611B28C6CC0012819C /* Build configuration list for PBXNativeTarget "WaitBlockTests" */;
+			buildPhases = (
+				BB89714F1B28C6CC0012819C /* Sources */,
+				BB8971501B28C6CC0012819C /* Frameworks */,
+				BB8971511B28C6CC0012819C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB8971561B28C6CC0012819C /* PBXTargetDependency */,
+			);
+			name = WaitBlockTests;
+			productName = WaitBlockTests;
+			productReference = BB8971531B28C6CC0012819C /* WaitBlockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB89713F1B28C6CC0012819C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Remi Robert";
+				TargetAttributes = {
+					BB8971471B28C6CC0012819C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					BB8971521B28C6CC0012819C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = BB8971421B28C6CC0012819C /* Build configuration list for PBXProject "WaitBlock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB89713E1B28C6CC0012819C;
+			productRefGroup = BB8971491B28C6CC0012819C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB8971471B28C6CC0012819C /* WaitBlock */,
+				BB8971521B28C6CC0012819C /* WaitBlockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB8971461B28C6CC0012819C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8971511B28C6CC0012819C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB8971431B28C6CC0012819C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8971651B28C6D90012819C /* WaitBlock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB89714F1B28C6CC0012819C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB89715B1B28C6CC0012819C /* WaitBlockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB8971561B28C6CC0012819C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB8971471B28C6CC0012819C /* WaitBlock */;
+			targetProxy = BB8971551B28C6CC0012819C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB89715C1B28C6CC0012819C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB89715D1B28C6CC0012819C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB89715F1B28C6CC0012819C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WaitBlock/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB8971601B28C6CC0012819C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WaitBlock/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BB8971621B28C6CC0012819C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WaitBlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB8971631B28C6CC0012819C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WaitBlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB8971421B28C6CC0012819C /* Build configuration list for PBXProject "WaitBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB89715C1B28C6CC0012819C /* Debug */,
+				BB89715D1B28C6CC0012819C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB89715E1B28C6CC0012819C /* Build configuration list for PBXNativeTarget "WaitBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB89715F1B28C6CC0012819C /* Debug */,
+				BB8971601B28C6CC0012819C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB8971611B28C6CC0012819C /* Build configuration list for PBXNativeTarget "WaitBlockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8971621B28C6CC0012819C /* Debug */,
+				BB8971631B28C6CC0012819C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB89713F1B28C6CC0012819C /* Project object */;
+}

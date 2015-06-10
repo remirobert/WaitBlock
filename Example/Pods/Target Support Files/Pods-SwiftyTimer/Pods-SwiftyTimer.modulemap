@@ -1,6 +1,0 @@
-framework module SwiftyTimer {
-  umbrella header "Pods-SwiftyTimer-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,13 +1,16 @@
 PODS:
-  - SwiftyTimer (1.1.0)
-  - WaitBlock (0.1)
+  - Nest (0.1.0)
+  - WaitBlock (0.2)
+  - "\U0001F512 (0.1.1)":
+    - Nest (~> 0.1.0)
 
 DEPENDENCIES:
-  - SwiftyTimer
-  - WaitBlock
+  - WaitBlock (~> 0.2)
+  - "\U0001F512"
 
 SPEC CHECKSUMS:
-  SwiftyTimer: 3b1bf42c8b1bb09dff7107b12d3b73cbf700bbce
-  WaitBlock: 8c32c0172a599c78a11d1e25cfd44ae519abaa61
+  Nest: 004f02b96c6fef406563f6e64d16f958ea90f7ae
+  WaitBlock: e3a8faf12d034607cec43da1a53bad63ff94ba06
+  "\U0001F512": 7ede1658c035414ba19738f0e8376ae1aa900a9b
 
 COCOAPODS: 0.37.2

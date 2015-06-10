@@ -1,8 +1,8 @@
 FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_FRAMEWORK_BUILD_PATH"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$PODS_FRAMEWORK_BUILD_PATH/SwiftyTimer.framework/Headers" -iquote "$PODS_FRAMEWORK_BUILD_PATH/WaitBlock.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -ObjC -framework "SwiftyTimer" -framework "WaitBlock"
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_FRAMEWORK_BUILD_PATH/Nest.framework/Headers" -iquote "$PODS_FRAMEWORK_BUILD_PATH/Padlock.framework/Headers" -iquote "$PODS_FRAMEWORK_BUILD_PATH/WaitBlock.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "Nest" -framework "Padlock" -framework "WaitBlock"
 OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
 OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
 PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods
