@@ -10,7 +10,7 @@ Each block are associated with a name. Wait🕟Block allows you to remove a spec
 
 ```Swift
 Wait🕟Block.executeBlock("test", limitTimer: 3) { () -> () in
-   // Do your fucking stuff here !!!
+   // Put your fucking code here !!!
 }
 ```
 
