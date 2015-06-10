@@ -15,4 +15,6 @@ Wait🕟Block.executeBlock("test", limitTimer: 3) { () -> () in
 Installation
 ============
 
-   pod 'WaitBlock'
+```
+pod 'WaitBlock'
+```
