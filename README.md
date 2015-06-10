@@ -1,5 +1,7 @@
 # Wait🕟Block
 
+![shield.io](https://img.shields.io/cocoapods/v/WaitBlock.svg) ![shield.io](https://img.shields.io/cocoapods/l/WaitBlock.svg) ![shield.io](https://img.shields.io/cocoapods/p/WaitBlock.svg)
+
 Simple utility for only executing code every so often.
 
 This will only execute the block passed, if the last time it was called is greater than limit or it has never been called. Keep the last called in memory.
