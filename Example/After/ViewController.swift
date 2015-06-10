@@ -7,19 +7,12 @@
 //
 
 import UIKit
-import WaitBlock
-import SwiftyTimer
 
 class ViewController: UIViewController {
 
     @IBOutlet var label: UILabel!
     
     @IBAction func addLimit(sender: AnyObject) {
-        
-        NSTimer.every(0.7.seconds) {
-            
-        }
-                
 //        Wait🕟Block.executeBlock("test", limitTimer: 3) { () -> () in
 //            println("test : \(NSDate().description)")
 //        }
