@@ -25,7 +25,7 @@ class Wait🕟Block {
         return Static.instance!
     }
     
-    class func executeBlock(name: String, limitTimer timer: NSTimeInterval, completionBlock block:(()->())) {
+    class func executeBlock(name: String, limitTimer timer: NSTimeInterval, completionBlock block:(() -> Void)) {
 
         var execute = true
         dispatch_sync(sharedInstance.queue, { () -> Void in
