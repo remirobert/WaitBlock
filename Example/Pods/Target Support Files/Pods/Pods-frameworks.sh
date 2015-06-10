@@ -48,12 +48,8 @@ code_sign() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework 'Nest.framework'
   install_framework 'WaitBlock.framework'
-  install_framework 'Padlock.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework 'Nest.framework'
   install_framework 'WaitBlock.framework'
-  install_framework 'Padlock.framework'
 fi

@@ -8,14 +8,13 @@
 
 import UIKit
 import WaitBlock
-import Padlock
 
 class ViewController: UIViewController {
 
     @IBOutlet var label: UILabel!
     
     @IBAction func addLimit(sender: AnyObject) {
-        let secureApplication = 🔒(isValidCredentials, application)
+        
         
 //        Wait🕟Block.executeBlock("test", limitTimer: 3) { () -> () in
 //            println("test : \(NSDate().description)")

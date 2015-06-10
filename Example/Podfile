@@ -1,3 +1,2 @@
 use_frameworks!
 pod 'WaitBlock', '~> 0.3'
-pod '🔒'
