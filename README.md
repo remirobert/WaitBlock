@@ -12,6 +12,9 @@ Each block are associated with a name. Wait🕟Block allows you to remove a spec
 Wait🕟Block.executeBlock("test", limitTimer: 3) { () -> () in
    // Put your fucking code here !!!
 }
+
+Wait🕟Block.resetTimer("test")
+Wait🕟Block.resetAllTimer()
 ```
 
 Installation
