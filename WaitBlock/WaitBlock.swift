@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Wait🕟Block {
+pubic class Wait🕟Block {
     private var queue: dispatch_queue_t!
     private var executionBlocks: NSMutableDictionary!
     
