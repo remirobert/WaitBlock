@@ -25,7 +25,7 @@ pubic class Wait🕟Block {
         return Static.instance!
     }
     
-    class func executeBlock(name: String, limitTimer timer: NSTimeInterval, completionBlock block:(() -> Void)) {
+    public class func executeBlock(name: String, limitTimer timer: NSTimeInterval, completionBlock block:(() -> Void)) {
 
         var execute = true
         dispatch_sync(sharedInstance.queue, { () -> Void in
@@ -50,13 +50,13 @@ pubic class Wait🕟Block {
         }
     }
     
-    class func resetAllTimer() {
+    public class func resetAllTimer() {
         dispatch_sync(sharedInstance.queue, { () -> Void in
             self.sharedInstance.executionBlocks.removeAllObjects()
         })
     }
 
-    class func resetTimer(name: String) {
+    public class func resetTimer(name: String) {
         dispatch_sync(sharedInstance.queue, { () -> Void in
             self.sharedInstance.executionBlocks.removeObjectForKey(name)
         })
